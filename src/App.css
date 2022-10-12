@@ -1,0 +1,110 @@
+
+
+/*note pad css */
+.header{
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  padding-left: 80px;
+  gap: 20px;
+  height: 100px;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+}
+.footer{
+ 
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.create{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100px;
+border-radius: 10px;
+  background-color: white;
+box-shadow: 0px 0px 20px;
+position: relative;
+padding: 5px 10px;
+}
+.form  input{
+  border: none;
+  width: 50px;
+  margin-top: 20px;
+
+font-size: 50px;
+}
+input::placeholder{
+  color: black;
+  font-size: 15px;
+
+}
+textarea{
+  border: none;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.noteplus{
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #61dafb;
+height: 20px;
+width: 20px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: -10px;
+right: -20px;
+cursor: pointer;
+}
+.noteplus:hover{
+  background-color: yellow;
+}
+.ap{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 150px;
+border-radius: 10px;
+  background-color: white;
+box-shadow: 0px 0px 20px;
+position: relative;
+padding: 5px 10px;
+margin: 30px 50px;
+}
+.notedelte{
+  position: absolute;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #61dafb;
+height: 20px;
+width: 20px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: -10px;
+right: -20px;
+}
+.notedelte:hover{
+  background-color: red;
+}
+.main-sd{
+display: flex;
+flex-direction: column;
+width: 100%;
+position: relative;
+}
+
+
